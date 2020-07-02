@@ -46,7 +46,7 @@ int main()
 
 ​	输出展示：
 
-![image-20200306104158637](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200306104158637.png)
+![1](./pic/1.png)
 
 - key:此次凯撒密码通过将明文向右顺移16位（向左顺移10位）构成
 
@@ -124,7 +124,7 @@ int main()
 
      输出结果为：
 
-     ![image-20200306104343144](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200306104343144.png)
+     ![2](./pic/2.png)
 
      其中可以发现，这些字符串都只出现过两次，于是我先尝试其最大公因数3为密钥长度
 
@@ -162,15 +162,15 @@ int main()
 
      得到结果为：
 
-     ![image-20200306104609170](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200306104609170.png)
+     ![3](./pic/3.png)
 
-     ![image-20200306104622633](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200306104622633.png)
+     ![4](./pic/4.png)
 
-     ![image-20200306104635040](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200306104635040.png)
+     ![5](./pic/5.png)
 
   3. 我进行了对密钥的第一次尝试，选取'ptx'对应字母e来进行破解，得到的结果却不尽人意，于是我将出现过的次数全部列举，并得到了
 
-     ![image-20200306105102735](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200306105102735.png)
+     ![6](./pic/6.png)
 
   4. 于是我决定对这些可能是密钥的序列进行穷举，
 
@@ -190,7 +190,7 @@ int main()
         // It is essential to seek out enemy agents who have come to conduct espionage against you and to bribe them to serve you give them instruction sand care for them thus doubled agents are recruited and used suntzu the art of war
      ```
 
-     ![image-20200306110425486](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200306110425486.png)
+     ![image-20200306110425486](./pic/7.png)
      
      最后成功破解密码
 
